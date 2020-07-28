@@ -1,4 +1,4 @@
- // for Random 6 digit number
+// for Random 6 digit number
  document.querySelector(".generate-btn").addEventListener("click", function () {
      var randDigit = Math.floor(Math.random() * (9999 - 1000 + 1)) + 1000;
      document.querySelector(".pin-gen").value = randDigit;
@@ -67,7 +67,7 @@
          document.querySelector(".timeCount").innerText = 1;
      } else {
          document.querySelector(".submit-btn").disabled = true;
-         document.querySelector(".action-left ").innerText = '';
+         document.querySelector(".action-left").innerText = '';
          document.querySelector(".submit-btn").style.background = '#5a67b3';
          document.querySelector(".submit-btn").style.color = ' #a8adc5';
      }
