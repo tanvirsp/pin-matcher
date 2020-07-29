@@ -1,4 +1,4 @@
-// for Random 6 digit number
+// for Random 4 digit number
  document.querySelector(".generate-btn").addEventListener("click", function () {
      var randDigit = Math.floor(Math.random() * (9999 - 1000 + 1)) + 1000;
      document.querySelector(".pin-gen").value = randDigit;
